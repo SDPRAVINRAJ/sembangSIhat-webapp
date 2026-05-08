@@ -1,56 +1,117 @@
-# Welcome to the SembangSihat WebApp Project
+<div align="center">
 
-## Project Info
+# 🥗 SembangSihat
 
-**URL:** https://sembangsihat.netlify.app/
+### *Makan Sihat, Hidup Gembira*
 
----
+**AI-powered nutrition intelligence built for Malaysia's food culture**
 
-## App Description
-
-**SembangSihat** is an AI-powered ecosystem designed to reconcile Malaysia’s rich food culture with modern wellness. The platform aims to eliminate nutritional guesswork and address rising metabolic health risks by providing localized, real-time health intelligence tailored to the Malaysian lifestyle.
-
-Key features include:
-
-- **Menu Hacker** – Analyzes restaurant or food stall menus and suggests healthier, budget-friendly meal options.
-- **Health Twin** – Uses predictive modeling to forecast long-term health outcomes based on lifestyle and dietary habits.
-- **Community Forum** – Provides a space for users to share experiences and receive expert-backed health advice.
-- **SihatCoins Reward System** – Encourages healthy habits by rewarding users for maintaining discipline and making better food choices.
-
-By shifting from passive tracking to proactive, real-time intervention, **SembangSihat empowers users to make smarter dietary decisions without sacrificing the local flavors they love.**
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-sembangsihat.netlify.app-3DB38A?style=for-the-badge)](https://sembangsihat.netlify.app/)
+[![Built with AI](https://img.shields.io/badge/Powered%20by-Claude%20AI-E8931A?style=for-the-badge)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-Required-339933?style=for-the-badge&logo=node.js)](https://nodejs.org/)
 
 ---
 
-## How can I edit this code?
+*Eliminating nutritional guesswork — without making you give up nasi lemak.*
 
-There are several ways of editing the application.
-
-### Use the SembangSihat WebApp Platform
-
-Simply visit the **SembangSihat WebApp project page** and start making changes to the application.
-
-Any changes made through the platform will be automatically committed to the repository.
+</div>
 
 ---
 
-### Use your preferred IDE
+## ✨ What is SembangSihat?
 
-If you want to work locally using your own IDE, you can clone the repository and push your changes.
+SembangSihat is an AI-powered wellness ecosystem designed to reconcile **Malaysia's rich food culture** with modern health goals. Instead of generic nutrition advice that ignores local cuisine, SembangSihat delivers **real-time, localized health intelligence** tailored to the Malaysian lifestyle.
 
-The only requirement is having **Node.js and npm installed**.
+No more choosing between your favourite mamak stall and your health — we bridge the gap.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🚀 Core Features
+
+### 🍽️ Menu Hacker
+Snap or paste any restaurant or food stall menu. SembangSihat's AI analyzes it and recommends the **healthiest, most budget-friendly** meal combinations — without stripping away the local flavors you love.
+
+### 🧬 Health Twin
+Your personalized predictive health model. Input your lifestyle and dietary habits to receive **long-term health outcome forecasts** — empowering you to make smarter decisions today before problems emerge tomorrow.
+
+### 💬 Community Forum
+A vibrant space where Malaysians share their wellness journeys, swap healthier recipes, and receive **expert-backed dietary advice** rooted in the local food context.
+
+### 🪙 SihatCoins Reward System
+Healthy habits deserve recognition. Earn **SihatCoins** for consistent meal tracking, hitting wellness goals, and making smarter food choices — then redeem them for rewards that keep you motivated.
+
+---
+
+## 🎯 The Problem We Solve
+
+| The Old Way | The SembangSihat Way |
+|---|---|
+| Generic Western nutrition apps | Localized Malaysian food intelligence |
+| Passive calorie tracking | Proactive, real-time intervention |
+| Giving up local food culture | Embracing it — healthily |
+| One-size-fits-all advice | Personalized to your lifestyle |
+| No long-term perspective | Predictive health modeling |
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm (comes bundled with Node.js)
+
+### Local Development
+
+```bash
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Navigate into the project
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# 3. Install dependencies
 npm install
 
-# Step 4: Start the development server with auto-reloading.
+# 4. Start the development server
 npm run dev
+```
 
+The app will be running at `http://localhost:5173` (or whichever port Vite assigns).
+
+---
+
+## 🌐 Deployment
+
+The project is deployed and live at **[sembangsihat.netlify.app](https://sembangsihat.netlify.app/)**.
+
+Any changes pushed to the main branch are automatically deployed via Netlify's CI/CD pipeline.
+
+---
+
+## 🧭 Project Roadmap
+
+- [x] Menu Hacker MVP
+- [x] SihatCoins reward system
+- [x] Community forum
+- [ ] Health Twin predictive modeling
+- [ ] Barcode scanner for packaged foods
+- [ ] Integration with local supermarket APIs
+- [ ] Bahasa Malaysia full localization
+- [ ] Mobile app (iOS & Android)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Whether it's adding support for more local dishes, improving the AI prompts, or enhancing the UI — every bit helps Malaysians live healthier.
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a Pull Request
+
+
+
+</div>
